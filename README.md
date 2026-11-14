@@ -22,11 +22,11 @@
 
 # &nbsp;🏭&nbsp; Built at Technimount System
 
-The code belongs to Technimount, so three of these tools stay internal. Two have public demos rebuilt on fictional data.
+I design the logic and rules; I build the apps with AI coding tools. The code belongs to Technimount, so three of these tools stay internal. Two have public demos rebuilt on fictional data.
 
 ### MRP system &nbsp;<sub>purchasing and requirements planning · internal</sub>
 
-<img src="https://img.shields.io/badge/MRP-374151?style=flat-square"> <img src="https://img.shields.io/badge/Zoho_Inventory-E42527?style=flat-square&logo=zoho&logoColor=white"> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
+<img src="https://img.shields.io/badge/MRP-374151?style=flat-square"> <img src="https://img.shields.io/badge/Zoho_Inventory-E42527?style=flat-square&logo=zoho&logoColor=white">
 
 - **What it is.** The buyers' daily answer to *"what must I order today so it arrives in time?"* Open sales orders are netted against stock, exploded through the bills of materials and filtered by each part's lead time. A second track reorders assemblies that fall below their reorder point.
 - **What changed.** Order processing went **from 5 days to half a day (−90%)**, from quote to purchase order. In fall 2026 I rebuilt it as a web app, and the report went **from about 8.5 minutes to under a second**.
@@ -36,7 +36,7 @@ The code belongs to Technimount, so three of these tools stay internal. Two have
 
 ### [Sales dashboard](https://tristan-massicotte.github.io/sales-dashboard/) &nbsp;<sub>3 companies, 2 currencies</sub> &nbsp;[![demo](https://img.shields.io/badge/try_the_demo-2EA44F?style=flat-square&logo=githubpages&logoColor=white)](https://tristan-massicotte.github.io/sales-dashboard/)
 
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/Zoho-E42527?style=flat-square&logo=zoho&logoColor=white"> <img src="https://img.shields.io/badge/Excel_&_PowerPoint_export-217346?style=flat-square">
+ <img src="https://img.shields.io/badge/Zoho-E42527?style=flat-square&logo=zoho&logoColor=white"> <img src="https://img.shields.io/badge/Excel_&_PowerPoint_export-217346?style=flat-square">
 
 - **What it is.** Sales by salesperson for three companies billing in CAD and USD, with drill-down to every invoice, a map of sales by region, a KPI page (credit notes, unpaid invoices by age), and one-click Excel and PowerPoint exports for the leadership meeting.
 - **What changed.** About 1,800 invoices, **matched to Zoho to the cent**. In daily use.
@@ -51,7 +51,7 @@ The code belongs to Technimount, so three of these tools stay internal. Two have
 
 ### [Manufacturing dashboard](https://tristan-massicotte.github.io/manufacturing-dashboard/) &nbsp;<sub>for the production director and CEO</sub> &nbsp;[![demo](https://img.shields.io/badge/try_the_demo-2EA44F?style=flat-square&logo=githubpages&logoColor=white)](https://tristan-massicotte.github.io/manufacturing-dashboard/)
 
-<img src="https://img.shields.io/badge/Inventory_planning-374151?style=flat-square"> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/Zoho_Inventory-E42527?style=flat-square&logo=zoho&logoColor=white">
+<img src="https://img.shields.io/badge/Inventory_planning-374151?style=flat-square"> <img src="https://img.shields.io/badge/Zoho_Inventory-E42527?style=flat-square&logo=zoho&logoColor=white">
 
 - **What it is.** One screen for the plant: inventory value and age at FIFO cost, open sales and purchase orders, purchases by supplier, stock cover for the best sellers, and on-time shipping against an 80% target.
 - **The rules that mattered.** Parts used in assemblies are traced through FIFO lots back to the supplier they actually came from. On-time is judged per order line, so an order with 3 of 4 lines on time counts as 0.75.
@@ -66,7 +66,7 @@ The code belongs to Technimount, so three of these tools stay internal. Two have
 
 ### Quote tool &nbsp;<sub>supplier quotes for manufactured parts · internal</sub>
 
-<img src="https://img.shields.io/badge/Purchasing-374151?style=flat-square"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
+<img src="https://img.shields.io/badge/Purchasing-374151?style=flat-square"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
 
 - **What it is.** One project is one request-for-quote cycle. The tool builds a **ZIP of every part's drawings automatically** and **emails it to each supplier** with the quote form, no manual packaging.
 - **The part I'm proudest of.** When a supplier sends back their Excel quote, I reverse-engineer their pricing into a **price curve by quantity**, so we can price an assembly near-exactly for any order quantity, not just the 5 tiers they quoted, and compare it against our target cost.
@@ -77,7 +77,7 @@ The code belongs to Technimount, so three of these tools stay internal. Two have
 
 ### Clear-to-build dashboard &nbsp;<sub>every open order, 4 companies · internal</sub>
 
-<img src="https://img.shields.io/badge/Clear--to--build-374151?style=flat-square"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"> <img src="https://img.shields.io/badge/Zoho_Inventory-E42527?style=flat-square&logo=zoho&logoColor=white">
+<img src="https://img.shields.io/badge/Clear--to--build-374151?style=flat-square"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/Zoho_Inventory-E42527?style=flat-square&logo=zoho&logoColor=white">
 
 - **What it is.** Each open customer order is sorted into *ready to ship*, *to assemble* (parts in stock, multi-level BOMs), *waiting on a PO* (with the PO), or *to order* (which part is missing, and how many). The oldest orders get stock and incoming POs first.
 - **What changed.** **6 hours a week saved** (3 hours each for 2 people).

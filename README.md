@@ -87,7 +87,7 @@ I design the logic and rules; I build the apps with AI coding tools. The code be
 
 # &nbsp;🛍️&nbsp; Soma
 
-### [Soma](https://apps.shopify.com/soma) &nbsp;<sub>founder and developer · launched May 2026</sub> &nbsp;[![website](https://img.shields.io/badge/website-1F2937?style=flat-square&logo=shopify&logoColor=white)](https://somastudios.fashion)
+### [Soma](https://www.youtube.com/watch?v=U-3Ff6xvsmM) &nbsp;<sub>founder and developer · launched May 2026</sub> &nbsp;[![website](https://img.shields.io/badge/website-1F2937?style=flat-square&logo=shopify&logoColor=white)](https://somastudios.fashion)
 
 <img src="https://img.shields.io/badge/Shopify_app-7AB55C?style=flat-square&logo=shopify&logoColor=white"> <img src="https://img.shields.io/badge/AI_virtual_try--on-8A2BE2?style=flat-square">
 

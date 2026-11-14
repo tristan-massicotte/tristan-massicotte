@@ -1,47 +1,125 @@
-# Tristan Massicotte
+<div align="center">
+  <img src="assets/banner.svg" alt="Tristan Massicotte, Industrial Engineering, University of Toronto" width="100%">
+</div>
 
-**Optimize, optimize, optimize.** Whether it's the way I cook my meals or the way a factory runs, I'm addicted to optimizing.
-
-Industrial Engineering at the University of Toronto (class of 2029). Manufacturing Software Developer at Technimount System, a manufacturer in Québec. French and English.
-
-[LinkedIn](https://linkedin.com/in/tristan-massicotte) · [Internship highlights](https://tristan-massicotte.github.io/engineering-internship-highlights) · [Email](mailto:tristanmassicotte@me.com)
+<p align="center">
+  <a href="https://linkedin.com/in/tristan-massicotte"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:tristanmassicotte@me.com"><img src="https://img.shields.io/badge/Email-C71610?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email"></a>
+  <a href="https://tristan-massicotte.github.io/engineering-internship-highlights"><img src="https://img.shields.io/badge/Internship_highlights-1F5FBF?style=for-the-badge&logo=githubpages&logoColor=white" alt="Internship highlights"></a>
+  <img src="https://img.shields.io/badge/Toronto_&_Québec-1F2937?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Toronto and Québec">
+</p>
 
 ---
 
-## Built at Technimount System
+## About me in a nutshell
 
-Tools for a manufacturer that runs on Zoho, built since May 2026. The code belongs to Technimount, so three of these are internal. Two have public demos rebuilt on fictional data.
+**Optimize, optimize, optimize.** Whether it's the way I cook my meals or the way a factory runs, I'm addicted to optimizing.
 
-| Tool | What it does | Result | |
-|---|---|---|---|
-| **MRP system** <br><sub>summer 2026</sub> | Turns open orders and stock into what to buy, from quote to purchase order | Order processing: 5 days → half a day (−90%) | Internal |
-| **Sales dashboard** | Sales by salesperson for 3 companies in 2 currencies, a sales map, KPIs, Excel and PowerPoint export | About 1,800 invoices, matched to Zoho to the cent | **[Live demo](https://tristan-massicotte.github.io/sales-dashboard/)** |
-| **Manufacturing dashboard** <br><sub>summer 2026</sub> | Inventory value and age, open orders, purchasing, suppliers, on-time shipping | | **[Live demo](https://tristan-massicotte.github.io/manufacturing-dashboard/)** |
-| **Quote tool** | Prices a request for quote at 5 quantity tiers against a target cost | | Internal |
-| **Clear-to-build dashboard** | Every open order across 4 companies: which can ship now, in priority order, and for the rest, the part that blocks it and its open PO | 6 h per week saved | Internal |
+- **Industrial Engineering at the University of Toronto** (class of 2029), French and English.
+- **Manufacturing Software Developer at Technimount System,** a manufacturer in Québec, after a summer there as Continuous Improvement Intern. The MRP system I built cut order processing **from 5 days to half a day**.
+- **Founder of Soma,** a Shopify app for AI virtual try-on, launched in May 2026.
 
-<table>
+<br>
+
+# &nbsp;🏭&nbsp; Built at Technimount System
+
+The code belongs to Technimount, so three of these tools stay internal. Two have public demos rebuilt on fictional data.
+
+### MRP system &nbsp;<sub>purchasing and requirements planning · internal</sub>
+
+<img src="https://img.shields.io/badge/MRP-374151?style=flat-square"> <img src="https://img.shields.io/badge/Zoho_Inventory-E42527?style=flat-square&logo=zoho&logoColor=white"> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
+
+- **What it is.** The buyers' daily answer to *"what must I order today so it arrives in time?"* Open sales orders are netted against stock, exploded through the bills of materials and filtered by each part's lead time. A second track reorders assemblies that fall below their reorder point.
+- **What changed.** Order processing went **from 5 days to half a day (−90%)**, from quote to purchase order. In fall 2026 I rebuilt it as a web app, and the report went **from about 8.5 minutes to under a second**.
+- **Skills shown.** MRP logic (BOM explosion, lead-time netting, reorder points), turning a purchasing process into a tool buyers trust.
+
+<br>
+
+### [Sales dashboard](https://tristan-massicotte.github.io/sales-dashboard/) &nbsp;<sub>3 companies, 2 currencies</sub> &nbsp;[![demo](https://img.shields.io/badge/try_the_demo-2EA44F?style=flat-square&logo=githubpages&logoColor=white)](https://tristan-massicotte.github.io/sales-dashboard/)
+
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/Zoho-E42527?style=flat-square&logo=zoho&logoColor=white"> <img src="https://img.shields.io/badge/Excel_&_PowerPoint_export-217346?style=flat-square">
+
+- **What it is.** Sales by salesperson for three companies billing in CAD and USD, with drill-down to every invoice, a map of sales by region, a KPI page (credit notes, unpaid invoices by age), and one-click Excel and PowerPoint exports for the leadership meeting.
+- **What changed.** About 1,800 invoices, **matched to Zoho to the cent**. In daily use.
+- **Skills shown.** Writing down the calculation rules (credit notes, taxes, CAD and USD kept apart) and checking them against the books.
+
+<div align="center">
+  <a href="https://tristan-massicotte.github.io/sales-dashboard/"><img src="assets/sales-dashboard.png" alt="Sales dashboard demo: map of sales by region" width="760"></a>
+  <br><sub>Sales dashboard demo, map page (fictional data).</sub>
+</div>
+
+<br>
+
+### [Manufacturing dashboard](https://tristan-massicotte.github.io/manufacturing-dashboard/) &nbsp;<sub>for the production director and CEO</sub> &nbsp;[![demo](https://img.shields.io/badge/try_the_demo-2EA44F?style=flat-square&logo=githubpages&logoColor=white)](https://tristan-massicotte.github.io/manufacturing-dashboard/)
+
+<img src="https://img.shields.io/badge/Inventory_planning-374151?style=flat-square"> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/Zoho_Inventory-E42527?style=flat-square&logo=zoho&logoColor=white">
+
+- **What it is.** One screen for the plant: inventory value and age at FIFO cost, open sales and purchase orders, purchases by supplier, stock cover for the best sellers, and on-time shipping against an 80% target.
+- **The rules that mattered.** Parts used in assemblies are traced through FIFO lots back to the supplier they actually came from. On-time is judged per order line, so an order with 3 of 4 lines on time counts as 0.75.
+- **Skills shown.** Inventory metrics (age, dormant stock, turns, days on hand), on-time delivery, supplier analysis.
+
+<div align="center">
+  <a href="https://tristan-massicotte.github.io/manufacturing-dashboard/"><img src="assets/manufacturing-dashboard.png" alt="Manufacturing dashboard demo: inventory value and supplier breakdown" width="760"></a>
+  <br><sub>Manufacturing dashboard demo (fictional data).</sub>
+</div>
+
+<br>
+
+### Quote tool &nbsp;<sub>supplier quotes for manufactured parts · internal</sub>
+
+<img src="https://img.shields.io/badge/Purchasing-374151?style=flat-square"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
+
+- **What it is.** One project is one request-for-quote cycle: build the drawings package, send the quote form to suppliers, import their answers, compare costs at **5 quantity tiers against a target cost**, then report and order. It replaced an Excel workbook.
+- **Where it is.** Deployed and in use.
+- **Skills shown.** Sourcing and cost comparison, replacing a fragile spreadsheet without losing what people relied on.
+
+<br>
+
+### Clear-to-build dashboard &nbsp;<sub>every open order, 4 companies · internal</sub>
+
+<img src="https://img.shields.io/badge/Clear--to--build-374151?style=flat-square"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"> <img src="https://img.shields.io/badge/Zoho_Inventory-E42527?style=flat-square&logo=zoho&logoColor=white">
+
+- **What it is.** Each open customer order is sorted into *ready to ship*, *to assemble* (parts in stock, multi-level BOMs), *waiting on a PO* (with the PO), or *to order* (which part is missing, and how many). The oldest orders get stock and incoming POs first.
+- **What changed.** **6 hours a week saved** (3 hours each for 2 people).
+- **Skills shown.** Clear-to-build analysis, finding the bottleneck part, allocating scarce stock by priority.
+
+<br>
+
+# &nbsp;🛍️&nbsp; Soma
+
+### [Soma](https://apps.shopify.com/soma) &nbsp;<sub>founder and developer · launched May 2026</sub> &nbsp;[![website](https://img.shields.io/badge/website-1F2937?style=flat-square&logo=shopify&logoColor=white)](https://somastudios.fashion)
+
+<img src="https://img.shields.io/badge/Shopify_app-7AB55C?style=flat-square&logo=shopify&logoColor=white"> <img src="https://img.shields.io/badge/AI_virtual_try--on-8A2BE2?style=flat-square">
+
+- **What it is.** A Shopify app that adds AI virtual try-on to a store's product pages, so shoppers can see the clothes on themselves without leaving the site.
+- **Where it is.** Used by La Boutique du Lac. I was interviewed on FM93 about it.
+
+<br>
+
+# &nbsp;🧰&nbsp; Toolkit
+
+<table width="100%">
 <tr>
-<td width="50%"><a href="https://tristan-massicotte.github.io/manufacturing-dashboard/"><img src="assets/manufacturing-dashboard.png" alt="Manufacturing dashboard demo: inventory value, supplier breakdown"></a></td>
-<td width="50%"><a href="https://tristan-massicotte.github.io/sales-dashboard/"><img src="assets/sales-dashboard.png" alt="Sales dashboard demo: map of sales by region and sales breakdown"></a></td>
+<td valign="top"><b>Operations</b></td>
+<td>
+<img src="https://img.shields.io/badge/MRP-374151?style=flat-square">
+<img src="https://img.shields.io/badge/Clear--to--build-374151?style=flat-square">
+<img src="https://img.shields.io/badge/Inventory_planning-374151?style=flat-square">
+<img src="https://img.shields.io/badge/Excel_modelling-217346?style=flat-square&logo=microsoftexcel&logoColor=white">
+<img src="https://img.shields.io/badge/Zoho_Inventory-E42527?style=flat-square&logo=zoho&logoColor=white">
+</td>
 </tr>
 <tr>
-<td align="center"><sub>Manufacturing dashboard demo (fictional data)</sub></td>
-<td align="center"><sub>Sales dashboard demo (fictional data)</sub></td>
+<td valign="top"><b>Software</b></td>
+<td>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black">
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white">
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
+</td>
 </tr>
 </table>
-
-## Soma
-
-**Founder and developer** · launched May 2026 · [Shopify App Store](https://apps.shopify.com/soma) · [Website](https://somastudios.fashion)
-
-A Shopify app that adds AI virtual try-on to a store's product pages, so shoppers can see the clothes on themselves without leaving the site.
-
-- Used by La Boutique du Lac.
-- Interviewed on FM93 about it.
-
-## Toolkit
-
-Excel modelling · MRP and inventory planning · Zoho · Python · TypeScript and React
 
 <sub>Technimount code stays with Technimount. The demos are separate rebuilds on fictional data, published with permission.</sub>

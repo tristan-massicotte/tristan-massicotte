@@ -17,7 +17,6 @@
 
 - **Industrial Engineering at the University of Toronto** (class of 2029), French and English.
 - **Manufacturing Software Developer at Technimount System,** a manufacturer in Québec, after a summer there as Continuous Improvement Intern. The MRP system I built cut order processing **from 5 days to half a day**.
-- **Founder of Soma,** a Shopify app for AI virtual try-on, launched in May 2026.
 
 <br>
 
@@ -69,9 +68,10 @@ The code belongs to Technimount, so three of these tools stay internal. Two have
 
 <img src="https://img.shields.io/badge/Purchasing-374151?style=flat-square"> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
 
-- **What it is.** One project is one request-for-quote cycle: build the drawings package, send the quote form to suppliers, import their answers, compare costs at **5 quantity tiers against a target cost**, then report and order. It replaced an Excel workbook.
-- **Where it is.** Deployed and in use.
-- **Skills shown.** Sourcing and cost comparison, replacing a fragile spreadsheet without losing what people relied on.
+- **What it is.** One project is one request-for-quote cycle. The tool builds a **ZIP of every part's drawings automatically** and **emails it to each supplier** with the quote form, no manual packaging.
+- **The part I'm proudest of.** When a supplier sends back their Excel quote, I reverse-engineer their pricing into a **price curve by quantity**, so we can price an assembly near-exactly for any order quantity, not just the 5 tiers they quoted, and compare it against our target cost.
+- **Where it is.** Deployed and in use. It replaced an Excel workbook.
+- **Skills shown.** Sourcing and cost modelling, automating the repetitive half of purchasing.
 
 <br>
 
@@ -91,35 +91,10 @@ The code belongs to Technimount, so three of these tools stay internal. Two have
 
 <img src="https://img.shields.io/badge/Shopify_app-7AB55C?style=flat-square&logo=shopify&logoColor=white"> <img src="https://img.shields.io/badge/AI_virtual_try--on-8A2BE2?style=flat-square">
 
-- **What it is.** A Shopify app that adds AI virtual try-on to a store's product pages, so shoppers can see the clothes on themselves without leaving the site.
+- **What it is.** A Shopify app that adds AI virtual try-on to a store's product pages. The merchant drops a "Try it now" button onto the product page from the theme editor, and shoppers see the clothes on themselves without leaving the site.
+- **The piece I'm proudest of.** A Web Pixel that attributes purchases back to a try-on, which let me price the product as a share of attributed revenue rather than a subscription.
 - **Where it is.** Used by La Boutique du Lac. I was interviewed on FM93 about it.
 
 <br>
-
-# &nbsp;🧰&nbsp; Toolkit
-
-<table width="100%">
-<tr>
-<td valign="top"><b>Operations</b></td>
-<td>
-<img src="https://img.shields.io/badge/MRP-374151?style=flat-square">
-<img src="https://img.shields.io/badge/Clear--to--build-374151?style=flat-square">
-<img src="https://img.shields.io/badge/Inventory_planning-374151?style=flat-square">
-<img src="https://img.shields.io/badge/Excel_modelling-217346?style=flat-square&logo=microsoftexcel&logoColor=white">
-<img src="https://img.shields.io/badge/Zoho_Inventory-E42527?style=flat-square&logo=zoho&logoColor=white">
-</td>
-</tr>
-<tr>
-<td valign="top"><b>Software</b></td>
-<td>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black">
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white">
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
-</td>
-</tr>
-</table>
 
 <sub>Technimount code stays with Technimount. The demos are separate rebuilds on fictional data, published with permission.</sub>
